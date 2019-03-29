@@ -1,0 +1,49 @@
+create_task(proc *, char *, int, int, uintptr_t, uintptr_t, uintptr_t) : void - /sandbox/rtos/trunk/os-core/src/kernel/image.c
+	image_init_tasks() : void - /sandbox/rtos/trunk/os-core/src/kernel/image.c (3 matches)
+create_task(proc *, char *, int, int, uintptr_t, uintptr_t, uintptr_t) : void - /sandbox/rtos/trunk/os-core/src/kernel/image.c
+	snprintf(char * volatile, size_t, const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/snprintf.c (4 matches)
+	print_and_die(const char *) : void - /sandbox/rtos/trunk/os-core/src/kernel/utility.c (4 matches)
+	mp_cpu_id() : int (5 matches)
+	cassert(int, int) : int - /sandbox/rtos/trunk/os-core/src/lib/aux/cassert.c (4 matches)
+	system_is_locked() : int
+	proc::rts_flags : unsigned int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	strncpy(char * volatile, const char * volatile, size_t) : char * - /sandbox/rtos/trunk/os-core/src/lib/musl/src/string/strncpy.c
+	proc::name : name_t - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (3 matches)
+	proc::part_nr : part_nr_t - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	proc::priority : int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	proc::priv : privilege - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (13 matches)
+	privilege::flags : unsigned int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (3 matches)
+	proc::bill_ptr : proc * - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	proc_addr(proc_nr_t) : proc * - /sandbox/rtos/trunk/os-core/src/kernel/table_proc.c
+	proc::seg : segments - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (3 matches)
+	segments::data : mem_map - /sandbox/rtos/trunk/os-core/include/kernel/types.h (3 matches)
+	privilege::ipc_mask : unsigned int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	memset(void *, int, size_t) : void * - /sandbox/rtos/trunk/os-core/src/lib/musl/src/string/memset.c (2 matches)
+	privilege::ipc_to : bitchunk_t [] - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	get_kmodules_nr() : int - /sandbox/rtos/trunk/os-core/install/src/libcfg/cfg_kmodules/modules.c
+	proc::nr : proc_nr_t - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (3 matches)
+	init_phys_region(proc_nr_t, phys_region) : int - /sandbox/rtos/trunk/os-core/src/kernel/table_proc.c
+	AUX_PRINT_MESSAGE(print_callback_t, int, const char *) : int - /sandbox/rtos/trunk/os-core/src/lib/aux/print.c
+	privilege::io_regions : io_region [] - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	io_region::first : uintptr_t - /sandbox/rtos/trunk/os-core/include/kernel/types.h
+	io_region::count : size_t - /sandbox/rtos/trunk/os-core/include/kernel/types.h
+	privilege::nr_io_regions : int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	privilege::partitions : bitchunk_t [] - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	proc::policy : enum sc_policy - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	SCP_SERVER (test)
+	proc::sched : sc_measure - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (4 matches)
+	sc_measure::qntm : sc_quantum - /sandbox/rtos/trunk/os-core/include/kernel/types.h (3 matches)
+	sc_quantum::size : int - /sandbox/rtos/trunk/os-core/include/kernel/types.h (2 matches)
+	GET_CLOCKTICKS_PER_SEC() : int64_t - /sandbox/rtos/trunk/os-core/install/src/libcfg/cfg_common/cfg.c (2 matches)
+	sc_quantum::left : int - /sandbox/rtos/trunk/os-core/include/kernel/types.h
+	sc_measure::front : int - /sandbox/rtos/trunk/os-core/include/kernel/types.h
+	proc::entry_point : uintptr_t - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	stackframe_set_pc(stackframe_t *, uintptr_t) : void
+	proc::reg : ? - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (3 matches)
+	stackframe_set_sp(stackframe_t *, uintptr_t) : void
+	privilege::stack_guard : uint32_t * - /sandbox/rtos/trunk/os-core/include/kernel/proc.h (2 matches)
+	proc::cpu_id : int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	hal_used_nof_cores() : int - /sandbox/rtos/trunk/os-hal/noarch/code/multicore.c (2 matches)
+	proc::reserved_by_cpu_id : int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	proc::in_queue_nr : int - /sandbox/rtos/trunk/os-core/include/kernel/proc.h
+	enqueue(proc *, unsigned int) : void - /sandbox/rtos/trunk/os-core/src/kernel/proc.c

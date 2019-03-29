@@ -1,0 +1,22 @@
+read_server_access(w_server *) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_boot.c
+	read_boot_servers(ezxml_t, w_device *, w_bootpart *, int, int, w_apm_cfg *) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_boot.c
+read_server_access(w_server *) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_boot.c
+	RET_OK - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (7 matches)
+	ezxml_get_child(ezxml_t, const char *, ezxml_t *, int) : enum ezxml_ret - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.c (3 matches)
+	w_server::tag : ezxml_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	w_server::nr_reg_io : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (5 matches)
+	ezxml::next : ezxml_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (2 matches)
+	fprintf(FILE * volatile, const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/fprintf.c (4 matches)
+	stderr : FILE * const - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/stderr.c (4 matches)
+	colorize : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c (2 matches)
+	ezxml::filename : char * - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (4 matches)
+	ezxml::line_nr : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (4 matches)
+	ezxml_attr_uDecOrHex(ezxml_t, const char *, unsigned int *, int, unsigned int) : enum ezxml_ret - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.c (3 matches)
+	w_server::reg_io : w_io_region [2048] - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	w_io_region::first : uint32_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	ezxml_attr_uint(ezxml_t, const char *, unsigned int *, int, unsigned int) : enum ezxml_ret - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.c
+	w_io_region::count : uint32_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	w_server::nr_reg_phys : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (5 matches)
+	w_phys_region::addr : uint32_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	w_server::reg_phys : w_phys_region [2048] - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	w_phys_region::size : uint32_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h

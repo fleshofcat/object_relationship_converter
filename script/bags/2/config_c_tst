@@ -1,0 +1,22 @@
+read_destinations(ezxml_t, w_channel *, w_bootpart *, int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_channels.c
+	read_channel(ezxml_t, w_bootpart *, int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_channels.c
+read_destinations(ezxml_t, w_channel *, w_bootpart *, int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_channels.c
+	w_channel::dest : w_channel_port * - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (3 matches)
+	w_channel::dest_num : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	ezxml::next : ezxml_t - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h
+	malloc(size_t) : void * - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdlib/malloc/malloc.c
+	fprintf(FILE * volatile, const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/fprintf.c (6 matches)
+	stderr : FILE * const - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/stderr.c (6 matches)
+	colorize : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c (3 matches)
+	printf(const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/printf.c
+	verbose : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	read_chpart(ezxml_t, w_bootpart *, int, PORT_DIRECTION_TYPE, w_channel *, w_channel_port *) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/read_channels.c
+	DESTINATION
+	w_channel_port::next : w_channel_port * - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	QUEING - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	w_channel::type : enum w_chtype - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h
+	w_channel::name : NAME_TYPE - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	w_channel::id : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/wxml.h (2 matches)
+	ezxml::filename : char * - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (2 matches)
+	ezxml::line_nr : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/ezxml.h (2 matches)
+

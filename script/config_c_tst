@@ -1,0 +1,23 @@
+blb_init(mpart *, int, char *, int) : int - /sandbox/rtos/trunk/os-core/src/module/apm/blb.c
+	do_blb_create(mproc *, mpart *, message_data *, message_data *) : int - /sandbox/rtos/trunk/os-core/src/module/apm/blb.c
+blb_init(mpart *, int, char *, int) : int - /sandbox/rtos/trunk/os-core/src/module/apm/blb.c
+	mpart::blb : blb * [] - /sandbox/rtos/trunk/os-core/src/module/apm/mpart.h
+	blb::com : icommon - /sandbox/rtos/trunk/os-core/src/module/apm/blb.h (2 matches)
+	icommon::index : pid_t - /sandbox/rtos/trunk/os-core/src/module/apm/icommon.h
+	strncpy(char * volatile, const char * volatile, size_t) : char * - /sandbox/rtos/trunk/os-core/src/lib/musl/src/string/strncpy.c
+	blb::name : BLACKBOARD_NAME_TYPE - /sandbox/rtos/trunk/os-core/src/module/apm/blb.h (3 matches)
+	obj_init(icommon *, icommon_type, char *, int, WAITING_RANGE_TYPE *) : void - /sandbox/rtos/trunk/os-core/src/module/apm/icommon.c
+	ICOMMON_BLACKBOARD - /sandbox/rtos/trunk/os-core/src/module/apm/icommon.h
+	blb::status : BLACKBOARD_STATUS_TYPE - /sandbox/rtos/trunk/os-core/src/module/apm/blb.h (4 matches)
+	(anonymous)::WAITING_PROCESSES : WAITING_RANGE_TYPE - /sandbox/rtos/trunk/os-core/include/apex/blackboard.h (2 matches)
+	blb::msg : MESSAGE_ADDR_TYPE - /sandbox/rtos/trunk/os-core/src/module/apm/blb.h
+	partition_malloc(mpart *, size_t) : void * - /sandbox/rtos/trunk/os-core/src/module/apm/malloc.c
+	mpart::status : PARTITION_STATUS_TYPE - /sandbox/rtos/trunk/os-core/src/module/apm/mpart.h
+	(anonymous)::IDENTIFIER : PARTITION_ID_TYPE - /sandbox/rtos/trunk/os-core/include/apex/types_part.h
+	AUX_PRINT_MESSAGE(print_callback_t, int, const char *) : int - /sandbox/rtos/trunk/os-core/src/lib/aux/print.c
+	INVALID_CONFIG
+	blb::mlen : MESSAGE_SIZE_TYPE - /sandbox/rtos/trunk/os-core/src/module/apm/blb.h
+	(anonymous)::MAX_MESSAGE_SIZE : MESSAGE_SIZE_TYPE - /sandbox/rtos/trunk/os-core/include/apex/blackboard.h
+	(anonymous)::EMPTY_INDICATOR : EMPTY_INDICATOR_TYPE - /sandbox/rtos/trunk/os-core/include/apex/blackboard.h
+	EMPTY - /sandbox/rtos/trunk/os-core/include/apex/blackboard.h
+	NO_ERROR

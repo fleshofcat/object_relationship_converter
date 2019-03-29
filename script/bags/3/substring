@@ -1,0 +1,17 @@
+main() : void - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	_main() : void - /sandbox/rtos/trunk/os-core/src/lib/entry/apex/entry.c
+	_main() : void - /sandbox/rtos/trunk/os-core/src/lib/entry/posix/entry.c
+	init_switch_to_kernel_stack() : void - /sandbox/rtos/trunk/os-hal/arch/e2k/code/boot_head.c
+main() : void - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	printf(const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/printf.c (12 matches)
+	verbose : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c (3 matches)
+	colorize : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c (9 matches)
+	fprintf(FILE * volatile, const char * volatile) : int - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/fprintf.c (14 matches)
+	stderr : FILE * const - /sandbox/rtos/trunk/os-core/src/lib/musl/src/stdio/stderr.c (14 matches)
+	init() : void - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	read_arinc_config(const char *, int *) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	read_boot_config(const char *, const int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	check_config() : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	write_arinc_config(const char *, const int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+	write_boot_config(const char *, const char *, const char *, const int) : int - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+

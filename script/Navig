@@ -1,0 +1,25 @@
+TODO:
+
+
+. Поисковик второго имени для определения частей может среагировать на строку в строке:
+// main() : void - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+//     _main() : void - /sandbox/rtos/trunk/os-core/src/lib/entry/apex/entry.c
+//     _main() : void - /sandbox/rtos/trunk/os-core/src/lib/entry/posix/entry.c
+//     init_switch_to_kernel_stack() : void - /sandbox/rtos/trunk/os-hal/arch/e2k/code/boot_head.c
+// main() : void - /sandbox/rtos/trunk/os-core/src/wxmlconf/main.c
+
+
+. Дописать взаимодействие передачи данных и управления
+
+. Сделать устойчивость к разным вводам (только 1 часть, т.д.)
+//. Обследовать determineKind() - возможно не правильно вычисляет функции
+. В getName() полукостыли ((между функцией и скобкой не может быть пробела), (не учитывается что пробел в имени может быть только в скобках))
+ Макро функции от функций можно отличать по наличию типа.
+. Написать тесты к этому всему
+. Подумать как исправить костыль в handleParts_out
+. Без пустой строки в конце добавляет внизу рандомные символы
+. Сделать функцинальную группу get*()
+. Возможно не правильно устроена индексация по str[strlen(str) - 1] // str[strlen(str)] - указатель на первый символ за '\0'
+. Без пустой строки между двумя частями прога крешится
+. Избавиться от статического массива buff[] в handleModule_out()
+. Подправить in и out в getType()
